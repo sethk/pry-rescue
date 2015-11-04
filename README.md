@@ -130,6 +130,14 @@ include it in development!):
 use PryRescue::Rack if ENV["RACK_ENV"] == 'development'
 ```
 
+### Rake
+
+Add the following to your `Rakefile`.
+
+```ruby
+require 'pry-rescue/rake'
+```
+
 ## Pry commands
 
 `pry-rescue` adds two commands to Pry. `cd-cause` and `try-again`. In combination with
